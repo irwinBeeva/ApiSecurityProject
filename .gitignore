@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/java,maven,eclipse
+# Created by https://www.gitignore.io/api/git,java,linux,maven,eclipse,java-web
 
 ### Eclipse ###
 
@@ -54,11 +53,14 @@ local.properties
 .worksheet
 
 ### Eclipse Patch ###
-# Eclipse Core		
+# Eclipse Core
 .project
 
-# JDT-specific (Eclipse Java Development Tools)		
+# JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+### Git ###
+*.orig
 
 ### Java ###
 # Compiled class file
@@ -86,6 +88,26 @@ hs_err_pid*
 
 ### Maven ###
 target/
+### Java-Web ###
+## ignoring target file
+target/
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### Maven ###
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -99,4 +121,4 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 
-# End of https://www.gitignore.io/api/java,maven,eclipse
+# End of https://www.gitignore.io/api/git,java,linux,maven,eclipse,java-web
