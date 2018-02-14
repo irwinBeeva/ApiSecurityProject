@@ -28,6 +28,6 @@ public class DecoderRSAJWT {
 					.build();
 			jwt = verifier.verify(token);	
 		} catch (JWTVerificationException e) {}
-		return jwt;
+		return jwt;	
 	}
 }
