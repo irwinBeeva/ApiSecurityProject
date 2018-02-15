@@ -1,0 +1,2 @@
+insert into usuario(username,password,account_non_expired,account_non_locked,credentials_non_expired, enabled) values('usuario','upassword',true,true,true,true),('usuario2','upassword2',true,true,true,true);
+insert into roles(authority, user_id) values('Role_User',1);
